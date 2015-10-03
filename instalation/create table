@@ -1,0 +1,31 @@
+CREATE TABLE images (
+  image_id INT(10) NOT NULL AUTO_INCREMENT,
+  image_type varchar(25) NOT NULL,
+  image longblob NOT NULL,
+  image_height INT(5),
+  image_width INT(5),
+  image_thumb mediumblob NOT NULL,
+  thumb_height INT(5),
+  thumb_width INT(5),
+  image_name varchar(50) NOT NULL,
+  blog_id INT(10),
+  KEY image_id (image_id)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE TABLE blog ( 
+blog_id INT(10) NOT NULL AUTO_INCREMENT ,
+blog_subject varchar(50) NOT NULL,  
+blog_text TEXT NOT NULL ,
+user_id INT(10) UNSIGNED NOT NULL ,  
+time_stamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,    
+PRIMARY KEY  (blog_id) ) ENGINE = InnoDB;
+
+CREATE TABLE users ( 
+user_id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT ,  
+user_name TEXT NOT NULL ,  
+user_hash CHAR(32) NOT NULL ,    
+PRIMARY KEY  (user_id) 
+) ENGINE = InnoDB
+
+
+

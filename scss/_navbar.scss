@@ -1,0 +1,55 @@
+.nav-justified 
+{
+    background-color: #eee;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    li
+    {
+        a 
+        {
+          padding-top: 15px;
+          padding-bottom: 15px;
+          margin-bottom: 0;
+          font-weight: bold;
+          color: #777;
+          text-align: center;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #fff #ccc #999 #eee;
+          @include gradient-vertical-three-colors(#3498DB, #f5f5f5, 30%, #2980B9);  
+
+        }
+        a:hover,a:focus
+        {
+            @include gradient-vertical-three-colors(#c1c1c1, #f5f5f5, 30%, #c1c1c1)
+        }
+    }
+    li:first-child
+    {
+        a
+        {
+            border-left: 0;
+            border-radius: 5px  0 0 5px;
+            
+        }
+            
+    }
+    li:last-child
+    {
+        a
+        {
+            border-right: 0;
+            border-radius: 0 5px 5px 0  ;
+        }
+            
+    }   
+    .active
+    {
+        a
+        {
+            @include gradient-vertical-three-colors(#c1c1c1, #70B870, 30%, #70B870)
+        }
+
+    }
+    
+}

@@ -1,0 +1,8 @@
+CREATE TABLE portfolio ( 
+portfolio_id INT(10) NOT NULL AUTO_INCREMENT ,
+portfolio_subject varchar(50) NOT NULL,  
+portfolio_text_CH TEXT NOT NULL ,
+portfolio_text_EN TEXT NOT NULL ,
+portfolio_text_FR TEXT NOT NULL ,
+time_stamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,    
+PRIMARY KEY  (portfolio_id) ) ENGINE = InnoDB;

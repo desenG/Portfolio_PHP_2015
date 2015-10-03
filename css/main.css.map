@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;AAAA,WACA;EACI,KAAK,EAAC,IAAI;;AAEd,YACA;EACI,KAAK,EAAE,KAAK;;AAGhB,QACA;EACI,KAAK,EAAE,OAAO;;AAGlB,OACA;EACI,IAAI,EAAE,iCAAiC;;;AAK3C,oCAAqC;;EAEnC;SACQ;IACN,aAAa,EAAE,CAAC;IAChB,YAAY,EAAE,CAAC;ACxBf,qBACA;EACI,IAAI,EAAE,iCAAiC;AAE3C,qBACA;EACI,MAAM,EAAE,GAAG;AAEf,eACA;EACI,IAAI,EAAE,sCAAsC",
+"sources": ["../scss/_others.scss","../scss/_article.scss"],
+"names": [],
+"file": "main.css"
+}

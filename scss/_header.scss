@@ -1,0 +1,28 @@
+header
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    @include gradient-vertical(#000000, #505050,  0%, 100%);
+    
+    .font_1
+    {
+        font: normal bold 51px/1.1em 'Open Sans',sans-serif;
+        white-space:nowrap;
+    }
+    .font_2
+    {
+        font: normal normal 8px/1.3em 'Open Sans',sans-serif;
+    }
+    .color_1
+    {
+        color: #89bc23;
+    } 
+
+}
+
+
+
+
+

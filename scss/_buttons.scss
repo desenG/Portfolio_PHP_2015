@@ -1,0 +1,21 @@
+.social-button {
+  @extend .btn;
+  background-position: 0.5em 1em;
+  background-repeat: no-repeat;
+  background-size: 1.5em;
+  @include border-radius(0);
+  @include box-shadow(none);
+    font-size: $font-size-sm;
+    padding: 0.75em 3em;
+  text-transform: uppercase;
+}
+ 
+.button-facebook {
+  @extend .social-button; 
+  background-image: url(../img/facebook.png);
+}
+ 
+.button-twitter {
+  @extend .social-button;
+  background-image: url(../images/twitter.png);
+}

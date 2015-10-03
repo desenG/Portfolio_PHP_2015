@@ -1,0 +1,13 @@
+CREATE TABLE testblob (
+  image_id tinyint(3) NOT NULL AUTO_INCREMENT,
+  image_type varchar(25) NOT NULL,
+  image longblob NOT NULL,
+  image_height INT(5),
+  image_width INT(5),
+  image_thumb mediumblob NOT NULL,
+  thumb_height INT(5),
+  thumb_width INT(5),
+  image_ctgy varchar(25) NOT NULL,
+  image_name varchar(50) NOT NULL,
+  KEY image_id (image_id)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;

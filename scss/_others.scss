@@ -1,0 +1,30 @@
+.float_left
+{
+    float:left;
+}
+.color_white
+{
+    color: white;
+}
+
+.color_1
+{
+    color: #89bc23;
+} 
+
+.font_2
+{
+    font: normal 9px 'Open Sans',sans-serif;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+

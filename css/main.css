@@ -1,0 +1,33 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Main Stylesheet
+******************************************************************/
+.float_left {
+  float: left; }
+
+.color_white {
+  color: white; }
+
+.color_1 {
+  color: #89bc23; }
+
+.font_2 {
+  font: normal 9px 'Open Sans',sans-serif; }
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .footer {
+    padding-right: 0;
+    padding-left: 0; } }
+article h1, article p {
+  font: 20px/1.3em 'Open Sans',sans-serif; }
+article h1, article p {
+  margin: 0px; }
+article .font_1 {
+  font: bold 51px/1.1em 'Open Sans',sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

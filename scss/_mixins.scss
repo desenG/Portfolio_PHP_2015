@@ -1,0 +1,41 @@
+/******************************************************************
+
+Mixins & Extensions
+
+******************************************************************/
+
+
+
+
+
+
+
+// ----------------- //
+//  box-shadow
+//  @include box-shadow(entire-string);
+// ----------------- //
+@mixin box-shadow($shadows) {
+  -moz-box-shadow: $shadows;
+  -webkit-box-shadow: $shadows;
+  box-shadow: $shadows;
+}
+
+//--------------------//
+//  border-radius
+//  @include border-radius(entire-string);
+// ----------------- //
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+
+
+
+
+
+
+
